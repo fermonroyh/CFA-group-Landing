@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Con Criterio — Acceso por lista</title>
+<meta name="description" content="Una comunidad privada para quienes implementan inteligencia artificial con criterio. Acceso por lista.">
+<meta property="og:title" content="Con Criterio — Acceso por lista">
+<meta property="og:description" content="Privado, curado y por invitación. Los detalles se revelan solo a la lista.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="seal fade"><span>c.</span></div>
+  <p class="eyebrow fade">Acceso por lista &nbsp;·&nbsp; Cupos limitados</p>
+  <h1 class="fade">Todos hablan de IA.<br>Muy pocos la usan <em>con criterio.</em></h1>
+  <p class="sub fade">Algo se está formando. Privado, curado y por invitación.<br>Los detalles se revelan solo a la lista.</p>
+
+  <div class="form-block fade">
+    <form data-capture>
+      <input type="email" name="email" placeholder="Tu correo" required autocomplete="email" aria-label="Correo electrónico">
+      <input type="text" name="company" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button type="submit">Solicitar acceso</button>
+      <!-- Turnstile: reemplaza data-sitekey por tu Site Key real -->
+      <div class="cf-turnstile" data-sitekey="TU_SITE_KEY" data-appearance="interaction-only" data-theme="dark"></div>
+    </form>
+    <div class="confirm" role="status"></div>
+    <p class="privacy">Tu correo no se comparte con nadie.</p>
+  </div>
+
+  <span class="scroll-hint">Desliza</span>
+</section>
+
+<!-- FILTER -->
+<section class="filter">
+  <div class="wrap">
+    <p class="label fade">Antes de dejar tu correo</p>
+
+    <div class="col no fade">
+      <h2>Esto <em>no</em> es para ti si…</h2>
+      <ul>
+        <li><span class="mark">—</span>Buscas prompts mágicos o atajos.</li>
+        <li><span class="mark">—</span>Crees que ver tutoriales te hace experto.</li>
+        <li><span class="mark">—</span>Repites el hype sin haber construido nada.</li>
+        <li><span class="mark">—</span>La IA te parece una moda, no una disciplina.</li>
+      </ul>
+    </div>
+
+    <div class="col yes fade">
+      <h2>Es para ti <em>si…</em></h2>
+      <ul>
+        <li><span class="mark">·</span>Construyes con IA y tienes algo en producción.</li>
+        <li><span class="mark">·</span>Diriges — finanzas, legal, operaciones, estrategia — y la estás implementando de verdad.</li>
+        <li><span class="mark">·</span>Piensas en la IA como ventaja de negocio, no como tendencia.</li>
+        <li><span class="mark">·</span>Prefieres una sala pequeña con las personas correctas.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<!-- CLOSING -->
+<section class="closing">
+  <h3 class="fade">No todos entran.<br><em>Cada perfil se revisa.</em></h3>
+  <p class="note fade">Los primeros en la lista conocerán los detalles antes que nadie.</p>
+
+  <div class="form-block fade">
+    <form data-capture>
+      <input type="email" name="email" placeholder="Tu correo" required autocomplete="email" aria-label="Correo electrónico">
+      <input type="text" name="company" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button type="submit">Solicitar acceso</button>
+      <!-- Turnstile: reemplaza data-sitekey por tu Site Key real -->
+      <div class="cf-turnstile" data-sitekey="TU_SITE_KEY" data-appearance="interaction-only" data-theme="dark"></div>
+    </form>
+    <div class="confirm" role="status"></div>
+    <p class="privacy">Tu correo no se comparte con nadie.</p>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026</span>
+  <a href="https://instagram.com/fermonroy.ai" target="_blank" rel="noopener">Curada por @fermonroy.ai</a>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>
